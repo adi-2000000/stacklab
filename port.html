@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish Card</title>
+
+    <style>
+        body {
+            background-color: #2c3e50;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            padding: 20px;
+        }
+
+        .main-card {
+            background-color: darkblue;
+            border-radius: 20px;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .card {
+            background-color: #ecf0f1;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            max-width: 460px;
+            width: 100%;
+            text-align: center;
+            color: #2c3e50;
+            margin: 20px;
+        }
+
+        /* ... other styles ... */
+
+        @media only screen and (max-width: 600px) {
+            .main-card,
+            .card {
+                max-width: 100%;
+                margin: 10px;
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-card">
+        <div class="backgroundimage">
+            <!-- Your existing content ... -->
+        </div>
+        <div class="content">
+            <span class="span1">Amogh Anerao</span>
+            <span class="span2">STACKLAB.IN</span>
+            <b class="bold">Business Development Executive</b>
+        </div>
+        <div class="font-awsome">
+            <a href="https://wa.me/+918766970959?text=Hello"><i class="fa-solid fa-mobile font-icon"></i></a>
+            <!-- ... other icons ... -->
+        </div>
+    </div>
+
+    <div class="card">
+        <span class="about">About Me</span>
+        <p>Hi, Amogh here from STACKLAB. As a Business Development Analyst at STACKLAB, I excel in strategic
+            planning and market analysis, driving growth through innovative solutions. Leveraging my analytical
+            prowess, I identify opportunities, forge key partnerships, and implement effective strategies to propel
+            StackLab's success in the dynamic business landscape.</p>
+    </div>
+
+    <!-- ... other cards ... -->
+
+    <script src="https://kit.fontawesome.com/af97da5ab3.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
